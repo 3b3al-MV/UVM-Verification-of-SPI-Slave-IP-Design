@@ -1,0 +1,34 @@
+<session version="1.1" release="V-2023.12" timestp="2024-05-17 15:52:02 GMT">
+  <info>
+    <attr name="datetime" value="Fri May 17 18:52:14 2024
+"/>
+    <attr name="command" value="urg -dir simv.vdb"/>
+    <attr name="top_instance" value="top_tb"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="40/44" />
+    <metric name="Cond" value="12/17" />
+    <metric name="Toggle" value="95/180" />
+    <metric name="Group" value="83.3333%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="top_tb::SPI_COV">
+      <metric name="Group" value="83.3333%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

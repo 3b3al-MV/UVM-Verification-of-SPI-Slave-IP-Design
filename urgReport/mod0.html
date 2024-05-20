@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: SPI_Slave</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_SPI_Slave'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_SPI_Slave')">SPI_Slave</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td></tr><tr>
+<td class="s6 cl rt"> 69.49</td>
+<td class="s8 cl rt"><a href="mod0.html#Line" > 87.88</a></td>
+<td class="s7 cl rt"><a href="mod0.html#Cond" > 70.59</a></td>
+<td class="s5 cl rt"><a href="mod0.html#Toggle" > 50.00</a></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/vlsi/Synopsys/design.sv')">/home/vlsi/Synopsys/design.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod0.html#inst_tag_0"  onclick="showContent('inst_tag_0')">top_tb.dut</a></td>
+<td class="s6 cl rt"> 69.49</td>
+<td class="s8 cl rt"><a href="mod0.html#Line" > 87.88</a></td>
+<td class="s7 cl rt"><a href="mod0.html#Cond" > 70.59</a></td>
+<td class="s5 cl rt"><a href="mod0.html#Toggle" > 50.00</a></td>
+<td class="wht cl rt"></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_SPI_Slave'>
+<hr>
+<a name="inst_tag_0"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_0" >top_tb.dut</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td></tr><tr>
+<td class="s6 cl rt"> 69.49</td>
+<td class="s8 cl rt"><a href="mod0.html#Line" > 87.88</a></td>
+<td class="s7 cl rt"><a href="mod0.html#Cond" > 70.59</a></td>
+<td class="s5 cl rt"><a href="mod0.html#Toggle" > 50.00</a></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td></tr><tr>
+<td class="s6 cl rt"> 69.49</td>
+<td class="s8 cl rt"> 87.88</td>
+<td class="s7 cl rt"> 70.59</td>
+<td class="s5 cl rt"> 50.00</td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s9 cl rt"> 91.67</td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="s8 cl rt"> 83.33</td>
+<td class="wht cl rt"></td>
+<td><a href="mod4.html#inst_tag_4" >top_tb</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td></tr><tr>
+<td colspan=6>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_SPI_Slave'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod0.html" >SPI_Slave</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s8"><td class="lf">TOTAL</td><td></td><td>33</td><td>29</td><td>87.88</td></tr>
+<tr class="s7"><td class="lf">ALWAYS</td><td>78</td><td>10</td><td>8</td><td>80.00</td></tr>
+<tr class="s8"><td class="lf">ALWAYS</td><td>109</td><td>11</td><td>9</td><td>81.82</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>141</td><td>3</td><td>3</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>157</td><td>5</td><td>5</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>178</td><td>4</td><td>4</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+77                        begin
+78         1/1              if (i_SPI_CS_n)
+79                          begin
+80         1/1                r_RX_Bit_Count &lt;= 0;
+81         1/1                r_RX_Done      &lt;= 1'b0;
+82                          end
+83                          else
+84                          begin
+85         1/1                r_RX_Bit_Count &lt;= r_RX_Bit_Count + 1;
+86                      
+87                            // Receive in LSB, shift up to MSB
+88         1/1                r_Temp_RX_Byte &lt;= {r_Temp_RX_Byte[6:0], i_SPI_MOSI};
+89                          
+90         1/1                if (r_RX_Bit_Count == 3'b111)
+91                            begin
+92         <font color = "red">0/1     ==>          r_RX_Done &lt;= 1'b1;</font>
+93         <font color = "red">0/1     ==>          r_RX_Byte &lt;= {r_Temp_RX_Byte[6:0], i_SPI_MOSI};</font>
+94                            end
+95         1/1                else if (r_RX_Bit_Count == 3'b010)
+96                            begin
+97         1/1                  r_RX_Done &lt;= 1'b0;        
+98                            end
+                        MISSING_ELSE
+99                      
+100                         end // else: !if(i_SPI_CS_n)
+101                       end // always @ (posedge w_SPI_Clk or posedge i_SPI_CS_n)
+102                     
+103                     
+104                     
+105                       // Purpose: Cross from SPI Clock Domain to main FPGA clock domain
+106                       // Assert o_RX_DV for 1 clock cycle when o_RX_Byte has valid data.
+107                       always @(posedge i_Clk or negedge i_Rst_L)
+108                       begin
+109        1/1              if (~i_Rst_L)
+110                         begin
+111        1/1                r2_RX_Done &lt;= 1'b0;
+112        1/1                r3_RX_Done &lt;= 1'b0;
+113        1/1                o_RX_DV    &lt;= 1'b0;
+114        1/1                o_RX_Byte  &lt;= 8'h00;
+115                         end
+116                         else
+117                         begin
+118                           // Here is where clock domains are crossed.
+119                           // This will require timing constraint created, can set up long path.
+120        1/1                r2_RX_Done &lt;= r_RX_Done;
+121                     
+122        1/1                r3_RX_Done &lt;= r2_RX_Done;
+123                     
+124        1/1                if (r3_RX_Done == 1'b0 &amp;&amp; r2_RX_Done == 1'b1) // rising edge
+125                           begin
+126        <font color = "red">0/1     ==>          o_RX_DV   &lt;= 1'b1;  // Pulse Data Valid 1 clock cycle</font>
+127        <font color = "red">0/1     ==>          o_RX_Byte &lt;= r_RX_Byte;</font>
+128                           end
+129                           else
+130                           begin
+131        1/1                  o_RX_DV &lt;= 1'b0;
+132                           end
+133                         end // else: !if(~i_Rst_L)
+134                       end // always @ (posedge i_Bus_Clk)
+135                     
+136                     
+137                       // Control preload signal.  Should be 1 when CS is high, but as soon as
+138                       // first clock edge is seen it goes low.
+139                       always @(posedge w_SPI_Clk or posedge i_SPI_CS_n)
+140                       begin
+141        1/1              if (i_SPI_CS_n)
+142                         begin
+143        1/1                r_Preload_MISO &lt;= 1'b1;
+144                         end
+145                         else
+146                         begin
+147        1/1                r_Preload_MISO &lt;= 1'b0;
+148                         end
+149                       end
+150                     
+151                     
+152                       // Purpose: Transmits 1 SPI Byte whenever SPI clock is toggling
+153                       // Will transmit read data back to SW over MISO line.
+154                       // Want to put data on the line immediately when CS goes low.
+155                       always @(posedge w_SPI_Clk or posedge i_SPI_CS_n)
+156                       begin
+157        1/1              if (i_SPI_CS_n)
+158                         begin
+159        1/1                r_TX_Bit_Count &lt;= 3'b111;  // Send MSb first
+160        1/1                r_SPI_MISO_Bit &lt;= r_TX_Byte[3'b111];  // Reset to MSb
+161                         end
+162                         else
+163                         begin
+164        1/1                r_TX_Bit_Count &lt;= r_TX_Bit_Count - 1;
+165                     
+166                           // Here is where data crosses clock domains from i_Clk to w_SPI_Clk
+167                           // Can set up a timing constraint with wide margin for data path.
+168        1/1                r_SPI_MISO_Bit &lt;= r_TX_Byte[r_TX_Bit_Count];
+169                     
+170                         end // else: !if(i_SPI_CS_n)
+171                       end // always @ (negedge w_SPI_Clk or posedge i_SPI_CS_n_SW)
+172                     
+173                     
+174                       // Purpose: Register TX Byte when DV pulse comes.  Keeps registed byte in 
+175                       // this module to get serialized and sent back to master.
+176                       always @(posedge i_Clk or negedge i_Rst_L)
+177                       begin
+178        1/1              if (~i_Rst_L)
+179                         begin
+180        1/1                r_TX_Byte &lt;= 8'h00;
+181                         end
+182                         else
+183                         begin
+184        1/1                if (i_TX_DV)
+185                           begin
+186        1/1                  r_TX_Byte &lt;= i_TX_Byte; 
+187                           end
+                        MISSING_ELSE
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod0.html" >SPI_Slave</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s7"><td class="lf">Conditions</td><td>17</td><td>12</td><td>70.59</td></tr>
+<tr class="s7"><td class="lf">Logical</td><td>17</td><td>12</td><td>70.59</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       70
+ EXPRESSION (w_CPHA ? ((~i_SPI_Clk)) : i_SPI_Clk)
+             ---1--
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       90
+ EXPRESSION (r_RX_Bit_Count == 3'b111)
+            -------------1------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       95
+ EXPRESSION (r_RX_Bit_Count == 3'b010)
+            -------------1------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       124
+ EXPRESSION ((r3_RX_Done == 1'b0) &amp;&amp; (r2_RX_Done == 1'b1))
+             ----------1---------    ----------2---------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       124
+ SUB-EXPRESSION (r3_RX_Done == 1'b0)
+                ----------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       124
+ SUB-EXPRESSION (r2_RX_Done == 1'b1)
+                ----------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       193
+ EXPRESSION (r_Preload_MISO ? r_TX_Byte[3'b111] : r_SPI_MISO_Bit)
+             -------1------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       196
+ EXPRESSION (i_SPI_CS_n ? 1'bz : w_SPI_MISO_Mux)
+             -----1----
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod0.html" >SPI_Slave</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s5">
+<td>Totals</td>
+<td class="rt">24</td>
+<td class="rt">13</td>
+<td class="rt">54.17 </td>
+</tr><tr class="s5">
+<td>Total Bits</td>
+<td class="rt">126</td>
+<td class="rt">63</td>
+<td class="rt">50.00 </td>
+</tr><tr class="s5">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">63</td>
+<td class="rt">32</td>
+<td class="rt">50.79 </td>
+</tr><tr class="s4">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">63</td>
+<td class="rt">31</td>
+<td class="rt">49.21 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s6">
+<td>Ports</td>
+<td class="rt">10</td>
+<td class="rt">6</td>
+<td class="rt">60.00 </td>
+</tr><tr class="s5">
+<td>Port Bits</td>
+<td class="rt">48</td>
+<td class="rt">27</td>
+<td class="rt">56.25 </td>
+</tr><tr class="s5">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">24</td>
+<td class="rt">14</td>
+<td class="rt">58.33 </td>
+</tr><tr class="s5">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">24</td>
+<td class="rt">13</td>
+<td class="rt">54.17 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s5">
+<td>Signals</td>
+<td class="rt">14</td>
+<td class="rt">7</td>
+<td class="rt">50.00 </td>
+</tr><tr class="s4">
+<td>Signal Bits</td>
+<td class="rt">78</td>
+<td class="rt">36</td>
+<td class="rt">46.15 </td>
+</tr><tr class="s4">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">39</td>
+<td class="rt">18</td>
+<td class="rt">46.15 </td>
+</tr><tr class="s4">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">39</td>
+<td class="rt">18</td>
+<td class="rt">46.15 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>i_Rst_L</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>i_Clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>o_RX_DV</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>o_RX_Byte[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>i_TX_DV</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>i_TX_Byte[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>i_SPI_Clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>o_SPI_MISO</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>i_SPI_MOSI</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>i_SPI_CS_n</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>w_CPOL</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>w_CPHA</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>w_SPI_Clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>w_SPI_MISO_Mux</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>r_RX_Bit_Count[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>r_TX_Bit_Count[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>r_Temp_RX_Byte[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>r_RX_Byte[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>r_RX_Done</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>r2_RX_Done</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>r3_RX_Done</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>r_TX_Byte[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>r_SPI_MISO_Bit</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>r_Preload_MISO</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_0">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="tag_SPI_Slave">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>
